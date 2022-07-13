@@ -1,0 +1,27 @@
+$ sudo mysql -u root 
+mysql > create user dbuser01@localhost identified by '6UnExYnH';
+mysql > grant all on db01.* to dbuser01@localhost;
+mysql > exit
+
+$ sudo mysql -u dbuser01 -p
+select user();
+mysql> show databases;
+mysql> exit
+
+$ sudo mysql -u root 
+mysql> create user dbuser02@localhost identified by '6UnExYnH';
+mysql> grant all on db02.* to dbuser02@localhost;
+mysql> show databases;
+mysql> exit
+
+$ sudo mysql -u root 
+mysql> show databases;
+
+$ sudo mysql -u dbuser01 -p
+mysql> drop database db01;
+mysql> drop database db02;
+mysql> show databases;
+mysql> drop user dbuser01@localhost;
+mysql> drop user dbuser02@localhost;
+
+mysql> exit

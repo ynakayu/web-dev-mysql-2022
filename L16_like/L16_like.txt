@@ -1,0 +1,11 @@
+mysql > select * from users;
+
+mysql > select * from users where name like 's%';
+mysql > select * from users where name like 'sa%';
+mysql > select * from users where name like 'SA%';
+mysql > select * from users where name like '%a%';
+mysql > select * from users where name like '%a';
+
+mysql > select * from users where name like '%a%k%';
+mysql > select * from users where name like '______';
+mysql > select * from users where name like '_a%';

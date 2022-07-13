@@ -1,0 +1,7 @@
+$ sudo mysql -u root < initialize_lecture_select.sql
+$ sudo mysql -u mydbuser -p
+mysql> use mydb;
+
+mysql> select * from users;
+mysql> select name from users;
+mysql> select name, age from users;

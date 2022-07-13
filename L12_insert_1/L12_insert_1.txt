@@ -1,0 +1,15 @@
+$ sudo mysql -u root < initialize.sql
+$ sudo mysql -u mydbuser -p 
+mysql > use mydb;
+
+mysql > create table users ( id int unsigned, name varchar(32), age int );
+mysql > insert into users(id, name, age) values(1, 'sato', 20);
+mysql > insert into users(id, name, age) values(2, 'suzuki', 21);
+mysql > insert into users(id, name, age) values(3, 'takahashi', null);  
+mysql > select * from users;
+mysql > insert into users (id, name, age) values
+      > (4, 'tanaka', 24),
+      > (5, 'ito', 25),
+      > (6, 'watanabe', 26);
+
+mysql > exit

@@ -1,0 +1,10 @@
+$ sudo mysql -u root < initialize.sql
+$ sudo mysql -u mydebuser -p 
+
+mysql > use mydb;
+mysql > create table users ( id int unsigned, name varchar(32), age int );
+mysql > show tables;
+mysql > desc users;
+mysql > drop table users;
+
+mysql > exit;

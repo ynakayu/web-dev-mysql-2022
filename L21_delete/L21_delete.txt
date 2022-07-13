@@ -1,0 +1,15 @@
+$ sudo mysql -u root < initialize_lecture_select.sql
+$ sudo mysql -u mydbuser -p 
+mysql > use mydb;
+
+mysql > select * from users;
+mysql > delete from users where id = 1;
+mysql > select * from users;
+mysql > delete from users where age >= 20;
+mysql > select * from users;
+mysql > delete from users;
+mysql > select * from users;
+
+mysql > exit
+
+

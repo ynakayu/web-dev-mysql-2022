@@ -1,0 +1,2 @@
+mysql > select name as namae, age as nenrei from users;
+mysql > select name namae, age nenrei from users;

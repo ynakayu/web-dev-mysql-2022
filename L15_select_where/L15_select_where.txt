@@ -1,0 +1,16 @@
+mysql > use mydb;
+mysql > select * from users;
+
+mysql > select * from users where id = 1;
+mysql > select * from users where name ='sato';
+mysql > select * from users where age > 20;
+mysql > select * from users where age < 20;
+mysql > select * from users where age <> 20;
+mysql > select * from users where age != 20;
+mysql > select * from users where id in (1,2,3);
+mysql > select * from users where id not in (1,2,3); 
+mysql > select * from users where age is not null; 
+mysql > select * from users where age is null;
+mysql > select * from users where age between 20 and 29;
+mysql > select * from users where age >= 20 and age <= 29;
+mysql > select * from users where age = 20 or age = 29;
