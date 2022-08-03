@@ -1,0 +1,22 @@
+$ mysql --version
+$ systemctl status mysql
+$ sudo mysql -u root
+mysql> exit
+
+$ sudo mysql -u root
+mysql> show variables like '%char%';
+mysql> exit
+
+$ mysql --help | grep my.cnf
+$sudo vim  /etc/mysql/my.cnf
+
+// my.cnfファイルに下記2行を追記
+[mysqld]
+character-set-server=utf8
+
+
+$ cat /etc/mysql/my.cnf
+$ sudo systemctl restart mysql
+$ sudo mysql -u root
+mysql> show variables like '%char%';
+mysql > exit
