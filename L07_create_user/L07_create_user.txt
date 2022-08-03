@@ -1,5 +1,5 @@
 $ sudo mysql -u root 
-mysql > create user dbuser01@localhost identified by '6UnExYnH';
+mysql > create user dbuser01@localhost identified by 'YOUR_PASSWORD';
 mysql > grant all on db01.* to dbuser01@localhost;
 mysql > exit
 
@@ -9,7 +9,7 @@ mysql> show databases;
 mysql> exit
 
 $ sudo mysql -u root 
-mysql> create user dbuser02@localhost identified by '6UnExYnH';
+mysql> create user dbuser02@localhost identified by 'YOUR_PASSWORD';
 mysql> grant all on db02.* to dbuser02@localhost;
 mysql> show databases;
 mysql> exit
