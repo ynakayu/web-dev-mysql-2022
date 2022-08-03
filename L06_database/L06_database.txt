@@ -19,6 +19,5 @@ $ sudo mysql -u root db01
 
 mysql > select database(); 
 mysql > SHOW DATABASES;
-mysql > Show DAtabases;
 
 mysql > exit;
