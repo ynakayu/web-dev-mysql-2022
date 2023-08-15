@@ -1,7 +1,7 @@
 mysql > select * from users;
 mysql > update users set age = 40 where id = 1;
 mysql > select * from users;
-mysql > update users set name = ‘aaaaa’, age = 41 where id = 1;
+mysql > update users set name = 'aaaaa', age = 41 where id = 1;
 mysql > select * from users;
 mysql > update users set age = 99 where age >= 30;
 mysql > select * from users;
