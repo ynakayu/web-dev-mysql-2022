@@ -1,5 +1,5 @@
 $ mysql --version
-$ systemctl status mysql
+$ sudo service mysql status
 $ sudo mysql -u root
 mysql> exit
 
@@ -16,7 +16,7 @@ character-set-server=utf8
 
 
 $ cat /etc/mysql/my.cnf
-$ sudo systemctl restart mysql
+$ sudo service mysql restart
 $ sudo mysql -u root
 mysql> show variables like '%char%';
 mysql > exit
